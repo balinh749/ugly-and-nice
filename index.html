@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepsi - Soda Challenge</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Joti+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* 1. Global Page Background (NO WHITE BACKGROUNDS) */
+    body {
+      background-color: #1e1e24;
+      color: #f1f2f6;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* 2. Custom Typography and Headers */
+    h1, h3, .joti-one-regular, .coke-heading {
+      font-family: "Joti One", serif;
+      font-weight: 400;
+      text-align: center;
+      color: #ff4757;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      color: #70a1ff;
+      margin-top: 25px;
+    }
+
+    /* 3. Styled Navigation Container */
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      background: #2f3542;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .links a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      background: #3742fa;
+      border-radius: 20px;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: #5352ed;
+    }
+
+    /* 4. Styled Divider Lines */
+    hr {
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #ff4757, #3742fa);
+      margin: 25px 0;
+    }
+
+    /* 5. Custom Content Card Boxes */
+    .card-box {
+      background-color: #2f3542;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .coke {
+      font-family: "Joti One", serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #eccc68;
+    }
+
+    /* 6. Video Embed Container Wrappers */
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    iframe {
+      border: 5px solid #ff4757;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      max-width: 100%;
+    }
+
+    /* 7. Image Styling and Responsive Alignment */
+    .img-center {
+      display: block;
+      margin: 15px auto;
+      border-radius: 10px;
+      border: 3px solid #70a1ff;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* 8. Content Container Layout */
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    /* 9. Brand Specific History Boxes (Blue & Green) */
+    .blue {
+      background-color: #1e3799;
+      color: #ffffff;
+      padding: 15px 25px;
+      border-radius: 10px;
+      flex: 1;
+      min-width: 250px;
+      border: 2px solid #4a69bd;
+    }
+
+    .green {
+      background-color: #0c2461;
+      color: #ffffff;
+      padding: 15px 25px;
+      border-radius: 10px;
+      flex: 1;
+      min-width: 250px;
+      border: 2px solid #1e3799;
+    }
+
+    .blue p, .green p {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+
+    /* 10. Multi-column Video Grid Layout */
+    .video-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Soda Challenge</h1>
+  
+  <div class="links">
+    <a href="index.html">Home Page</a>
+    <a href="coke.html">Coke</a>
+    <a href="pepsi.html">Pepsi</a>
+  </div>
+
+  <hr>
+
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/po0jY4WvCIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <hr>
+
+  <div class="card-box coke">
+    <p>Both Coca-Cola and Pepsi can trace their origins back to the 1890s, and the two sodas seemed to be able to peacefully co-exist until nearly a century later. But in the 1980s, the companies began directly taking aim at each other through their respective marketing campaigns during what is now known as the “Cola Wars.” Here’s a look at how that rivalry started — and where the two companies are now.</p>
+  </div>
+
+  <h3>A Brief History of Coke and Pepsi</h3>
+
+  <img src="pepsi.png" alt="Vintage Pepsi" class="img-center">
+
+  <div class="card-box history">
+    <p>Coca-Cola was invented in 1886 by a pharmacist in Columbus, Georgia, who began selling it to soda fountains, the History Channel reported. Six years later, the Coca-Cola Company was founded. Pepsi was also invented by a pharmacist, who invented his own sugar drink in 1893. Five years later, he changed his soda’s name from “Brad’s Drink” to “Pepsi-Cola” and founded the Pepsi-Cola Company in 1902.</p>
+
+    <p>For many years, Coke was the more popular drink while the Pepsi-Cola Company struggled financially and went through several reorganizations. Then, in 1975, Pepsi took its first direct hit at its rival.</p>
+  </div>
+
+  <h3>The Wall Street Journal Declares Diet Coke the Winner of the ‘Cola Wars’</h3>
+
+  <div class="card-box cola">
+    <img src="coke.png" alt="Vintage Coke" width="500" height="600" class="img-center">
+    <p>Although Coca-Cola sales had topped Pepsi’s sales for years, the two sodas were always No. 1 and 2, respectively. Then in 2010, Diet Coke sales topped Pepsi’s sales for the first time, leading The Wall Street Journal to run the headline, “Diet Coke Wins Battle in Cola Wars.”</p>
+
+    <p>“Occupying the top two rankings would mark a historic win for Coca-Cola Co. in its decades-old rivalry with PepsiCo Inc., which has seen its market share slip in recent years and is trying to retool its marketing,” the article stated.</p>
+  </div>
+
+  <div class="content">
+    <div class="blue">
+      <p>History of Coke</p>
+      <ul>
+        <li>May 8, 1886</li>
+        <li>Dr. John Pemberton: sold the first glass</li>
+        <li>Jacob's Pharmacy, downtown Atlanta</li>
+      </ul>
+    </div>
+    <div class="green">
+      <p>History of Pepsi</p>
+      <ol>
+        <li>1898</li>
+        <li>Caleb D. Bradham</li>
+        <li>New Bern, North Carolina</li>
+      </ol>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="video-grid">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d3wWuBM5OQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_IqYGtKx9WM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>
